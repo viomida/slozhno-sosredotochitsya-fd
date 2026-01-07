@@ -1,3 +1,4 @@
+
 .page.theme_dark {
   --background-image: url("../images/cover-image-dark.png");
   --accent-color: #ff0070;
@@ -9,3 +10,4 @@
   --header2-color: var(--accent-color);
   --header3-color: var(--background-color);
   --is-light: visible;
+}

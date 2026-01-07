@@ -9,6 +9,7 @@
   --header2-color: var(--text-color);
   --header3-color: var(--text-color);
   --is-light: hidden;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -23,4 +24,4 @@
     --header3-color: var(--text-color);
     --is-light: hidden;
     }
-}
+  }
