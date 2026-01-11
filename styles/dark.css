@@ -1,14 +1,13 @@
-
-.page.theme_dark {
+:root .theme_dark {
   --background-image: url("../images/cover-image-dark.png");
   --accent-color: #ff0070;
   --accent-color-opacity: #ff007066;
   --text-color: #f1b2ce;
   --decoration-color: var(--accent-color);
   --background-color: #000028;
-  --header1-color: #db00ff;
-  --header2-color: var(--accent-color);
-  --header3-color: var(--background-color);
-  --is-light: visible;
-  --is-dark: hidden;
+  --brand-color: #db00ff;
+  --title-color: var(--accent-color);
+  --decor-color: var(--background-color);
+  --is-light: hidden;
+  --is-dark: visible;
 }
