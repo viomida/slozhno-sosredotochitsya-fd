@@ -151,7 +151,7 @@
   block-size: 12px;
   border-radius: 50%;
   background-color: var(--accent-color);
-  box-shadow: 0 0 4px 4px var(--accent-color);
+  box-shadow: 0 0 4px 2px var(--accent-color);
 }
 
 .header__theme-menu {
@@ -218,7 +218,7 @@
 .footer__title {
   justify-self: center;
   align-self: center;
-  color: var(--header1-color);
+  color: var(--brand-color);
   text-shadow: 2px 2px 0 var(--accent-color);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: var(--title-line-height);
@@ -334,9 +334,7 @@
   }
 
   .topic__wide {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto);
-
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .topic__title__wide {

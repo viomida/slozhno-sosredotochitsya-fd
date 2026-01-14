@@ -1,4 +1,4 @@
-:root .theme_dark {
+.theme-dark {
   --background-image: url("../images/cover-image-dark.png");
   --accent-color: #ff0070;
   --accent-color-opacity: #ff007066;
